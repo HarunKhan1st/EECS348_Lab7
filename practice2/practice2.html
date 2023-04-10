@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Practice 2 EECS 348</title>
+        <link href="practice2.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <p id="Change_Me">This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. 
+            This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. 
+            This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. 
+            This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. 
+            This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. This is the dummy text. </p>
+
+        Enter Red value: <input type="text" id="color_text_r">
+        Enter Blue value: <input type="text" id="color_text_b">
+        Enter Green value: <input type="text" id="color_text_g">
+        <button onclick="change_color('color_text_r', 'color_text_g', 'color_text_b')">Change Text Color</button>
+        <br><br>
+        Enter Red value: <input type="text" id="color_border_r">
+        Enter Blue value: <input type="text" id="color_border_b">
+        Enter Green value: <input type="text" id="color_border_g">
+        <button onclick="change_border('color_border_r', 'color_border_g','color_border_b')">Change Border Color</button><br><br>
+        
+        <input type="text" id="border_size">
+        <button onclick="change_border_size('border_size')">Change Border Width</button>
+
+        <script src="practice2.js"></script>
+
+    </body>
+</html>
